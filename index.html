@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>ROCK PAPER SCISSORS</header>
+    <main>
+        <div class="playerComputer">
+            <!-- Player -->
+            <div class="playerContainer">
+                <img src="images/player.png" alt="playerImg">
+                <h3>PLAYER</h3>
+                <h4 id="playerText">Score: 0</h4>
+            </div>
+            <h1>VS</h1>
+            <!-- Computer -->
+            <div class="computerContainer">
+                <img src="images/computer.png" alt="computerImg">
+                <h3>COMPUTER</h3>
+                <h4 id="computerText">Score: 0</h4>
+            </div>
+        </div>
+        <div class="roundResult">
+            <h3 id="result"></h3>
+        </div>
+
+        <!-- Move-container -->
+         <div class="moveContainer">
+            <div class="pickMove">
+                <h2>Pick a move</h2>
+            </div>
+            <div class="moves">            
+                <!-- Rock -->
+                 <div class="rock">
+                    <button id="rockBtn">
+                        <img src="images/rock.svg" alt="rockImg">
+                        <h3>ROCK</h3>
+                    </button>                
+                 </div>
+                <!-- Paper -->
+                 <div class="paper">
+                    <button id="paperBtn">
+                        <img src="images/paper.svg" alt="paperImg">
+                        <h3>PAPER</h3>
+                    </button>                
+                 </div>
+                <!-- Scissors -->
+                 <div class="scissors">
+                    <button id="scissorsBtn">
+                        <img src="images/scissors.svg" alt="scissorsImg">
+                        <h3>SCISSORS</h3>
+                    </button>                
+                 </div>            
+            </div>
+         </div>    
+         <!-- Play again button -->
+         <div class="playAgain">
+            <button id="playAgainBtn">Play again</button>
+         </div>
+    </main>
+    
+</body>
+</html>
+
